@@ -13,6 +13,18 @@
         <p>HAPPY BIRTHDAY LOUISA</p>
         <img src="/images/téléchargement.jpg" alt="">
     </div>
+
+    <button onclick="playMusic()">
+        <img src="/images/download.png" alt="">
+    </button>
+    <audio id="music" src="/audio/musique.mp3"></audio>
+
+    <script>
+    function playMusic() {
+        const music = document.getElementById("music");
+        music.play();
+    }
+    </script>
     
 </body>
 </html>
